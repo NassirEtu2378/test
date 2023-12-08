@@ -1,0 +1,57 @@
+STATUSCODE rehefa mety ilay izy , 200 nandeha araky ny tokony ho izy , 400 ho an'ny erreur  
+Protocol HTTP no anaovana anazy
+sujet afk isafidianana : navigateur WEB , serveur 
+
+private double minX ;
+	private double maxX;
+	private double minY;
+	private double maxY;
+
+	// Getter pour minX
+    public double getminX() {
+        return minX;
+    }
+
+    // Setter pour minX
+    public void setminX(double minX) {
+        this.minX = minX;
+    }
+
+    // Getter pour maxX
+    public double getmaxX() {
+        return maxX;
+    }
+
+    // Setter pour maxX
+    public void setmaxX(double maxX) {
+        this.maxX = maxX;
+    }
+
+    // Getter pour minY
+    public double getminY() {
+        return minY;
+    }
+
+    // Setter pour minY
+    public void setminY(double minY) {
+        this.minY = minY;
+    }
+
+    // Getter pour maxY
+    public double getmaxY() {
+        return maxY;
+    }
+
+    // Setter pour maxY
+    public void setmaxY(double maxY) {
+        this.maxY = maxY;
+    }
+
+    //CONSTRUCTEUR
+	public Terrain(double minX , double maxX , double minY , double maxY)
+	{
+		this.minX = minX;
+		this.maxX = maxX;
+		this.minY = minY;
+		this.maxY = maxY;
+	}
